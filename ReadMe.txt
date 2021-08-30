@@ -3,13 +3,13 @@ The GC Skew PlottR app is  [hosted](https://the1stmartian.shinyapps.io/NYCDA-Shi
 ## Overview
 Over recent year I became interested in investigating the evolutionary history of bacterial genes. Specifically, I was curious how frequently genes switch their orientation as lagging strand encoding can lead to head-on replication-transcription conflicts. This concept is discussed in detail in a number of studies including:
 
-- Rocha EPC, Danchin A. Gene essentiality determines chromosome organisation in bacteria. Nucleic Acids Res. 2003;31:6570–6577. doi: 10.1093/nar/gkg859.
-- Lang KS, et al. Replication-transcription conflicts generate R-loops that orchestrate bacterial stress survival and pathogenesis. Cell. 2017;170:787.e18–799.e18. doi: 10.1016/j.cell.2017.07.044.
+- Rocha EPC, Danchin A. Gene essentiality determines chromosome organisation in bacteria. Nucleic Acids Res. 2003;31:6570â€“6577. doi: 10.1093/nar/gkg859.
+- Lang KS, et al. Replication-transcription conflicts generate R-loops that orchestrate bacterial stress survival and pathogenesis. Cell. 2017;170:787.e18â€“799.e18. doi: 10.1016/j.cell.2017.07.044.
 - Merrikh CN, Brewer BJ, Merrikh H. The B. subtilis accessory helicase PcrA facilitates DNA replication through transcription units. PLoS Genet. 2015;11:e1005289.
-- Lin YL, Pasero P. Interference between DNA replication and transcription as a cause of genomic instability. Curr. Genomics. 2012;13:65–73. doi: 10.2174/138920212799034767.
-- Prado F, Aguilera A. Impairment of replication fork progression mediates RNA polII transcription-associated recombination. EMBO J. 2005;24:1267–1276. doi: 10.1038/sj.emboj.7600602.
+- Lin YL, Pasero P. Interference between DNA replication and transcription as a cause of genomic instability. Curr. Genomics. 2012;13:65â€“73. doi: 10.2174/138920212799034767.
+- Prado F, Aguilera A. Impairment of replication fork progression mediates RNA polII transcription-associated recombination. EMBO J. 2005;24:1267â€“1276. doi: 10.1038/sj.emboj.7600602.
 
-![conflicts](https://github.com/The1stMartian/NYCDA-Shiny/blob/master/www/conflicts.png)
+![conflicts](https://github.com/The1stMartian/RShiny_GCskew/blob/master/www/conflicts.png)
 
 # The problem of inversion detection
 
@@ -23,7 +23,7 @@ Eventually though I came a cross a possible answer: I noticed that genes on the 
 
 Because this violates the broad trend observed across the chromosome, I considered the possibility that this might be an indication that these lagging strand genes were originally encoded on the opposing strand (the leading strand).
 
-![GC Skew in Mtb](https://github.com/The1stMartian/NYCDA-Shiny/blob/master/www/GCskewDiagram.png)
+![GC Skew in Mtb](https://github.com/The1stMartian/RShiny_GCskew/blob/master/www/GCskewDiagram.png)
 
 This led us to discover a great deal of evidence that nearly all genes were encoded on the leading strand of the replication fork for nearly all of evolutionary history. It's only recently that genes were added to the lagging strand, likely through random recombination events. As these genes are likely to disrupt replication, selective pressure should drive their return to the leading strand as part of a dynamic equilibrium. However, in some cases it appears that lagging strand encoding can be beneficial:
 
