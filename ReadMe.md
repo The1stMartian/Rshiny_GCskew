@@ -3,11 +3,11 @@
 ## Overview
 Over recent year I became interested in investigating the evolutionary history of bacterial genes. Specifically, I was curious how frequently genes switch their orientation as lagging strand encoding can lead to head-on replication-transcription conflicts. This concept is discussed in detail in a number of studies including:
 
-- Rocha EPC, Danchin A. Gene essentiality determines chromosome organisation in bacteria. Nucleic Acids Res. 2003;31:6570–6577. doi: 10.1093/nar/gkg859.
-- Lang KS, et al. Replication-transcription conflicts generate R-loops that orchestrate bacterial stress survival and pathogenesis. Cell. 2017;170:787.e18–799.e18. doi: 10.1016/j.cell.2017.07.044.
-- Merrikh CN, Brewer BJ, Merrikh H. The B. subtilis accessory helicase PcrA facilitates DNA replication through transcription units. PLoS Genet. 2015;11:e1005289.
-- Lin YL, Pasero P. Interference between DNA replication and transcription as a cause of genomic instability. Curr. Genomics. 2012;13:65–73. doi: 10.2174/138920212799034767.
-- Prado F, Aguilera A. Impairment of replication fork progression mediates RNA polII transcription-associated recombination. EMBO J. 2005;24:1267–1276. doi: 10.1038/sj.emboj.7600602.
+![Rochca and Danchin](https://pubmed.ncbi.nlm.nih.gov/14602916/)
+![Lang et. al](https://pubmed.ncbi.nlm.nih.gov/28802046/)
+![The Merrikh Lab](https://pubmed.ncbi.nlm.nih.gov/29856930/)
+![Andres Aguilera's lab](https://pubmed.ncbi.nlm.nih.gov/15775982/)
+
 
 ![conflicts](https://github.com/The1stMartian/RShiny_GCskew/blob/master/www/conflicts.png)
 
