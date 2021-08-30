@@ -33,12 +33,18 @@ This led us to discover a great deal of evidence that nearly all genes were enco
 
 This interpretation has been quite controversial, prompting us to investigate the possibility that our interpretation of GC skew values is incorrect. Therefore we investigated the idea that a positive GC skew is not guaranteed for any gene. In other words, some genes may gain a negative GC skew without inverting. As part of this investigation, we examined GC skew values of 1st, 2nd, or 3rd position nucleotides with the expectation that these three skew values would reveal if mutational pressure drives a positive GC skew in all genes, or if mutations can drive a negative GC skew in some instances. The data strongly suggest that DNA replication is the predominant force affecting the GC skew, and that it drives all (more or less) genes toward a positive GC skew. This suggests that indeed, our interpretations were accurate. 
 
-This can be visualized directly in the GCskewPlotR app by graphing the CP1 versus CP3 GC skew distributions. 
+# Identification of the GC Skew mutational pressure
+
+This can be visualized directly by comparing the GC skew of codon position 3 nucleotides (which should rapidly change and reveal the direction of the mutational pressure), versus codon position 1 nucleotides which should retain their sequence due to selection pressure. For example in <i>M. tuberculosis</i>
+
 ![Codon Position 1](https://github.com/The1stMartian/RShiny_GCskew/blob/master/www/Graph1.png)
 ![Codon Position 3](https://github.com/The1stMartian/RShiny_GCskew/blob/master/www/CP3.png)
 
-The GC Skew PlottR is a small R/Shiny based app for displaying the GC skew values of bacterial genes. The values are calculated using all nucleotides or only nucleotides in the 1st, 2nd or 3rd codon positions. We hypothesized that 3rd codon position GC skew values should reveal the direction of mutagenesis - in other words if the GC skew is driven in the positive or negative direction for all genes relative to the leading strand. It appears that this is the case. Therefore, the net negative GC skew values of most genes is likely due to a recent inversion. As such, we concluded that our recent manuscript was accurate. 
-
+# GCskewPlotR
+To make it easy to see these differences, I developed GC Skew PlottR, a small R/Shiny based app for displaying the GC skew values of bacterial genes. The values are calculated using all nucleotides or only nucleotides in the 1st, 2nd or 3rd codon positions. We hypothesized that 3rd codon position GC skew values should reveal the direction of mutagenesis - in other words if the GC skew is driven in the positive or negative direction for all genes relative to the leading strand. It appears that this is the case. Therefore, the net negative GC skew values of most genes is likely due to a recent inversion. As such, we concluded that our recent manuscript was accurate. 
+ 
+ # An ongoing debate
+ 
 [A challenge to our manuscript](https://www.biorxiv.org/content/10.1101/2020.01.14.906818v1)
 
 [Our response](https://www.biorxiv.org/content/10.1101/2020.05.26.117366v2.full.pdf)
