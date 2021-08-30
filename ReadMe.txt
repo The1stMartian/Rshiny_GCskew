@@ -1,4 +1,4 @@
-The GC Skew PlottR app is  [hosted](https://the1stmartian.shinyapps.io/NYCDA-Shiny/) on ShinyApps.io.
+# [The GC Skew PlottR](https://the1stmartian.shinyapps.io/NYCDA-Shiny/) on ShinyApps.io.
 
 ## Overview
 Over recent year I became interested in investigating the evolutionary history of bacterial genes. Specifically, I was curious how frequently genes switch their orientation as lagging strand encoding can lead to head-on replication-transcription conflicts. This concept is discussed in detail in a number of studies including:
