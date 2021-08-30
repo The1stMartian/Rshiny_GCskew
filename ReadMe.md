@@ -1,15 +1,22 @@
 # [The GC Skew PlotR](https://the1stmartian.shinyapps.io/NYCDA-Shiny/) on ShinyApps.io.
 
+
 ## Overview
-Over recent year I became interested in investigating the evolutionary history of bacterial genes. Specifically, I was curious how frequently genes switch their orientation as lagging strand encoding can lead to head-on replication-transcription conflicts. This concept is discussed in detail in a number of studies including:
 
-![Rochca and Danchin](https://pubmed.ncbi.nlm.nih.gov/14602916/)
-![Lang et. al](https://pubmed.ncbi.nlm.nih.gov/28802046/)
-![The Merrikh Lab](https://pubmed.ncbi.nlm.nih.gov/29856930/)
-![Andres Aguilera's lab](https://pubmed.ncbi.nlm.nih.gov/15775982/)
-
+In recent years I became interested in investigating the evolutionary history of bacterial genes. Specifically, I was curious how frequently genes switch their orientation as lagging strand encoding can lead to head-on replication-transcription conflicts:
 
 ![conflicts](https://github.com/The1stMartian/RShiny_GCskew/blob/master/www/conflicts.png)
+
+The details of these fascinating interactions are discussed in detail in a number of studies including:
+
+[Rocha and Danchin](https://pubmed.ncbi.nlm.nih.gov/14602916/)
+
+[Lang et. al](https://pubmed.ncbi.nlm.nih.gov/28802046/)
+
+[The Merrikh Lab](https://pubmed.ncbi.nlm.nih.gov/29856930/)
+
+[Andres Aguilera's lab](https://pubmed.ncbi.nlm.nih.gov/15775982/)
+
 
 # The problem of inversion detection
 
@@ -45,6 +52,6 @@ To make it easy to see these differences, I developed GC Skew PlottR, a small R/
  
  # An ongoing debate
  
-[A challenge to our manuscript](https://www.biorxiv.org/content/10.1101/2020.01.14.906818v1)
+[A challenge to our manuscript](https://www.biorxiv.org/content/10.1101/2020.01.14.906818v1) claiming that GC skew comparisons cannot be used to identify gene inversions, and arguing that DNA replication is only one of many drivers of the GC skew.
 
-[Our response](https://www.biorxiv.org/content/10.1101/2020.05.26.117366v2.full.pdf)
+[Our response](https://www.biorxiv.org/content/10.1101/2020.05.26.117366v2.full.pdf) demonstrates that the work purported to challenge our own, actually supports the validity and accuracy of using the GC skew to identify gene inversions. The debate also led us to assess a long standing debate about whether DNA replication is truly the main driver of the GC skew profiles visible in bacterial chromosomes. (Our work, supported by the CP1 versus CP3 GC skew comparison suggests that it is.) Overall, the debate helped move the field forward.
