@@ -19,7 +19,7 @@ It was not immediately clear how one could go about identifying the evolutionary
 
 Eventually though I came a cross a possible answer: I noticed that genes on the lagging strand tend to have a particular sequence pattern - a negative GC skew. Here this is illustrated in the <i>C. jejuni</i> genome where a selection of lagging strand genes are depicted in dark blue (lower) and leading strand genes are in light blue (top). The local GC skew values are shown in gray as a moving average, or over whole gene regions (black boxes).   
 
-![GC skew inversion](https://github.com/The1stMartian/NYCDA-Shiny/blob/master/www/GCskew.png)
+![GC skew inversion](https://github.com/The1stMartian/RShiny_GCskew/blob/master/www/GCskew.png)
 
 Because this violates the broad trend observed across the chromosome, I considered the possibility that this might be an indication that these lagging strand genes were originally encoded on the opposing strand (the leading strand).
 
