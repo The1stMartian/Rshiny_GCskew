@@ -13,7 +13,7 @@ The details of these fascinating interactions are discussed in detail in a numbe
 
 Primary research by [Lang et. al](https://pubmed.ncbi.nlm.nih.gov/28802046/)
 
-[Review from the Merrikh lab:](https://pubmed.ncbi.nlm.nih.gov/29856930/)
+[A review] by the Merrikh lab (https://pubmed.ncbi.nlm.nih.gov/29856930/)
 
 [Andres Aguilera's lab](https://pubmed.ncbi.nlm.nih.gov/15775982/)
 
