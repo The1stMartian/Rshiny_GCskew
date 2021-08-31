@@ -11,9 +11,9 @@ The details of these fascinating interactions are discussed in detail in a numbe
 
 [Rocha and Danchin](https://pubmed.ncbi.nlm.nih.gov/14602916/)
 
-[Lang et. al](https://pubmed.ncbi.nlm.nih.gov/28802046/)
+Primary research by [Lang et. al](https://pubmed.ncbi.nlm.nih.gov/28802046/)
 
-[The Merrikh Lab](https://pubmed.ncbi.nlm.nih.gov/29856930/)
+[Review from the Merrikh lab:](https://pubmed.ncbi.nlm.nih.gov/29856930/)
 
 [Andres Aguilera's lab](https://pubmed.ncbi.nlm.nih.gov/15775982/)
 
