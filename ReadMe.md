@@ -1,5 +1,6 @@
 # [The GC Skew PlotR](https://the1stmartian.shinyapps.io/NYCDA-Shiny/) on ShinyApps.io.
 
+The R-Shiny app can be launched by clicking the link above.
 
 ## Overview
 
